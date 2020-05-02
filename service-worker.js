@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kenzap/precache-manifest.6aebcdf976bd6a6b42c115bfacf98123.js"
+  "/kenzap/precache-manifest.a8ad8edf218a287461afebc7f3356d52.js"
 );
 
 self.addEventListener('message', (event) => {
