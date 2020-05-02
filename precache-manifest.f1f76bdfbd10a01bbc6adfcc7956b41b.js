@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa38bc66064095af0ee8e83e95c7167e",
+    "revision": "5e11170261fe66bee52d2c2a34485003",
     "url": "/kenzap/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kenzap/static/css/2.d20b2b2f.chunk.css"
   },
   {
-    "revision": "17df76f38c4a6ccee42f",
+    "revision": "9ba2e10344791006e4fd",
     "url": "/kenzap/static/css/main.e567957f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kenzap/static/js/2.0315006d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "17df76f38c4a6ccee42f",
-    "url": "/kenzap/static/js/main.5bcfd537.chunk.js"
+    "revision": "9ba2e10344791006e4fd",
+    "url": "/kenzap/static/js/main.4110ddee.chunk.js"
   },
   {
     "revision": "de6a512629aaae1f629e",
