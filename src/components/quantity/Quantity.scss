@@ -1,0 +1,94 @@
+.quantity-body {
+    height: 70px;
+    width: 270px;
+    margin: 20px 0 31px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #868686;
+}
+
+.quantity-form {
+    height: 70px;
+    width: 80px;
+    background-color: white;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-minus, .button-plus {
+    border: 1px solid #979797;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-minus i, .button-plus i {
+    font-size: 12px;
+}
+
+@media (max-width: 575.98px) {}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .quantity {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .quantity-body {
+        width: 360px;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .quantity {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .quantity-body {
+        width: 400px;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}

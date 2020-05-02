@@ -1,0 +1,238 @@
+$width-body: 1170px;
+$width-body-small: 90vw;
+$width-body-medium: 80vw;
+
+.presentation {
+    background-color: #F5F5F5;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.presentation-body {
+    width: $width-body;
+}
+
+.presentation-images {
+    height: 700px;
+    width: 735px;
+    margin-top: 68px;   
+}
+
+.presentation-cards {
+    height: 883px;
+    width: 373px;
+    margin-top: 60px;
+}
+
+.presentation-cards-header {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: start ;
+    color: #111111;
+    line-height: 125%;
+}
+
+.breadcrumb {
+    width: 100% !important;
+    height: 26px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #F5F5F5 !important;
+}
+
+.breadcrumb-item {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    color:#1941DF; 
+    line-height: 24px;
+    padding: 1px !important;
+}
+
+.button-continue-body {
+    margin: 0px 0px 20px 4px;
+    height: 70px;
+    background: #1941DF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-continue-summary, .button-continue-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.add-to-wishlist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-wishlist-body {
+    height: 29px;
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.add-to-wishlist i {
+    font-size: 24px;
+}
+
+.add-to-wishlist div {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #323232;
+    margin-left: 20px;   
+}
+
+@media (max-width: 575.98px) { 
+    .breadcrumb-holder {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .breadcrumb {
+        height: 52px !important;
+        width: $width-body-small !important;
+    }
+
+    .presentation {
+        margin: 0;
+        width: 100vw; 
+    }
+
+    .presentation-body {
+        width: $width-body-small !important;
+    }
+
+    .presentation-images {
+        width: $width-body-small;
+        margin-top: 49px; 
+        height: 100%;  
+    }
+
+    .presentation-cards {
+        width: $width-body-small;
+        margin-top: 55px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .breadcrumb-holder {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .breadcrumb {
+        height: 52px !important;
+        width: $width-body-medium !important;
+    }
+
+    .presentation {
+        margin: 0;
+        width: 100vw; 
+    }
+
+    .presentation-body {
+        width: $width-body-medium !important;
+    }
+
+    .presentation-images {
+        width: $width-body-medium;
+        margin-top: 49px; 
+        height: 100%;  
+    }
+
+    .presentation-cards {
+        width: $width-body-medium;
+        margin-top: 55px;
+    }
+
+    .button-continue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .button-continue-body {
+        width: 360px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .breadcrumb-holder {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .breadcrumb {
+        height: 52px !important;
+        width: $width-body-medium !important;
+    }
+
+    .presentation {
+        margin: 0;
+        width: 100vw; 
+    }
+
+    .presentation-body {
+        width: $width-body-medium !important;
+    }
+
+    .presentation-images {
+        width: $width-body-medium;
+        margin-top: 49px; 
+        height: 100%;  
+    }
+
+    .presentation-cards {
+        width: $width-body-medium;
+        margin-top: 55px;
+    }
+
+    .button-continue {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button-continue-body {
+        width: 400px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}

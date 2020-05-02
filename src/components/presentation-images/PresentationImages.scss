@@ -1,0 +1,184 @@
+
+$width-body: 1170px;
+$width-body-small: 90vw;
+$width-body-medium: 80vw;
+
+.main-image img{
+    margin-top: 29px;
+    width: 735px;
+    height: 550px;
+}
+
+.secondary-image {
+    width: 168px;
+    height: 125px;
+    background-color: D8D8D8;
+}
+
+.thrumbnails {
+    margin-top: 36px;
+}
+
+.presentation-share {
+    margin-top: 49px;
+}
+
+.presentation-share-text {
+    font-family: Poppins;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a2a2a2;
+    display: inline;
+    margin-right: 16px;
+}
+
+.share-link {
+    width: 26px;
+    height: 27px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+    .main-image {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-image img {
+        width: $width-body-small;
+        height: 300px;
+        margin-top: 24px;
+    }
+
+    .secondary-image {
+        width: 122px;
+        height: 80px;
+    }
+
+    .thrumbnails {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .thrumbnails div {
+        width: $width-body-small;
+    }
+
+    .presentation-share {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .presentation-share div {
+        width: $width-body-small;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-image {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-image img {
+        width: $width-body-medium;
+        height: 100%;
+    }
+
+    .main-image {
+        margin-bottom: 24px;
+    }
+
+    .secondary-image {
+        width: 122px;
+        height: 80px;
+    }
+
+    .thrumbnails {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .thrumbnails div {
+        width: $width-body-small;
+    }
+
+    .presentation-share {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .presentation-share div {
+        width: $width-body-small;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-image {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-image img {
+        width: $width-body-medium;    
+        margin-top: 24px;
+    }
+
+    .secondary-image {
+        width: 122px;
+        height: 80px;
+    }
+
+    .thrumbnails {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .thrumbnails div {
+        width: $width-body-small;
+    }
+
+    .presentation-share {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .presentation-share div {
+        width: $width-body-small;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+@media (min-width: 1200px) {}

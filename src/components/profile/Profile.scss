@@ -1,0 +1,83 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 21px 0 18px 0;
+    margin-bottom: 17px;
+}
+
+.photo {
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+}
+
+.photo img {
+    border-radius: 50%;
+}
+
+.operator-name {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.operator {
+    display: flex;
+    flex-direction: row;
+}
+
+.operator-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.operator-content-flag {
+    height: 15px;
+    width: 23px;
+    margin-right: 10px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    border-radius: 4px;
+}
+
+.chat i { 
+    color: #CDCDCD;
+    height: 17px;
+    width: 19px;
+    margin-right: 5px;
+}
+
+@media (max-width: 575.98px) {
+    .chat {
+        width: 100px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .chat {
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chat {
+        width: 160px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
