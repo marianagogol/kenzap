@@ -7,7 +7,7 @@ export default class Header extends Component {
             <div>
                 <nav className="navbar navbar-light">
                     <a className="navbar-brand" href="#">
-                        <img src="/images/KENZAP.svg" width="105" height="32" alt=""/>
+                        <img src={process.env.PUBLIC_URL + '/images/KENZAP.svg'} width="105" height="32" alt=""/>
                     </a>                       
                     <form className="form-inline mr-auto">
                             <input className="search form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
