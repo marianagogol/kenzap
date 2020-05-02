@@ -8,7 +8,7 @@ class RelatedItem extends Component {
     render() {
         return (
             <div className="related-item card">
-                <img src={this.props.related[this.props.index].photo} className="related-item-image card-img-top" alt="..." />
+                <img src={process.env.PUBLIC_URL + this.props.related[this.props.index].photo} className="related-item-image card-img-top" alt="..." />
                 <div className="related-item-body card-body">
                     <div className="related-item-title">{this.props.related[this.props.index].title}</div>
                     <div className="related-item-user">{this.props.related[this.props.index].user}</div>
