@@ -10,7 +10,7 @@ class Profile extends Component {
             <div className="profile">
                 <div className="operator">
                     <div className="photo">
-                        <img src="/images/PhotoProfile.svg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/images/PhotoProfile.svg"} alt="" />
                     </div>
                     <div>
                         <div className="operator-name">
@@ -18,7 +18,7 @@ class Profile extends Component {
                         </div>
                         <div className="operator-content">
                             <div className="operator-content-flag">
-                                <img src="/images/Flag.svg" alt="" />
+                                <img src={process.env.PUBLIC_URL + "/images/Flag.svg"} alt="" />
                             </div>
                             <div className="operator-content-stars">
                                 <ReactStars

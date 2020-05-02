@@ -37,13 +37,13 @@ class Package extends Component {
                 <div className="package-title">
                     <div className="price">${this.props.packages[this.props.index].price}</div>
                     <div className="select" ref={this.selectRef} onClick={this.onClickTick}>
-                         <img src="/images/TickIconWhite.svg" alt=""/>
+                         <img src={process.env.PUBLIC_URL + "/images/TickIconWhite.svg"} alt=""/>
                     </div>
                 </div>
                 <div className="name-package">{this.props.packages[this.props.index].packageName}</div>
                 <div className="package-specification">
                     <div className="package-specification-icon">
-                        <img src="/images/TickIcon.svg" alt=""/>
+                        <img src={process.env.PUBLIC_URL + "/images/TickIcon.svg"} alt=""/>
                     </div>
                     <div className="package-specification-text"> 
                         {this.props.packages[this.props.index].skills}

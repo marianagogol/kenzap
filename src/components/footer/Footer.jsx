@@ -11,7 +11,7 @@ export default class Footer extends Component {
                             <div className="col-xs-12 col-xl-4">
                                 <div className="about">
                                     <div className="about-logo">
-                                        <img src="/images/Logo.svg" alt="" />
+                                        <img src={process.env.PUBLIC_URL + "/images/Logo.svg"} alt="" />
                                     </div>
                                     <div className="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Eiusmod tempor incididunt ut labore.</div>
                                 </div>
