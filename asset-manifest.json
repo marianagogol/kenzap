@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kenzap/static/css/main.e567957f.chunk.css",
-    "main.js": "/kenzap/static/js/main.0083ec56.chunk.js",
-    "main.js.map": "/kenzap/static/js/main.0083ec56.chunk.js.map",
+    "main.js": "/kenzap/static/js/main.5bcfd537.chunk.js",
+    "main.js.map": "/kenzap/static/js/main.5bcfd537.chunk.js.map",
     "runtime-main.js": "/kenzap/static/js/runtime-main.fb182357.js",
     "runtime-main.js.map": "/kenzap/static/js/runtime-main.fb182357.js.map",
     "static/css/2.d20b2b2f.chunk.css": "/kenzap/static/css/2.d20b2b2f.chunk.css",
     "static/js/2.0315006d.chunk.js": "/kenzap/static/js/2.0315006d.chunk.js",
     "static/js/2.0315006d.chunk.js.map": "/kenzap/static/js/2.0315006d.chunk.js.map",
     "index.html": "/kenzap/index.html",
-    "precache-manifest.a8ad8edf218a287461afebc7f3356d52.js": "/kenzap/precache-manifest.a8ad8edf218a287461afebc7f3356d52.js",
+    "precache-manifest.aad01e037b9eeb9fb4dd9ed253b972dc.js": "/kenzap/precache-manifest.aad01e037b9eeb9fb4dd9ed253b972dc.js",
     "service-worker.js": "/kenzap/service-worker.js",
     "static/css/2.d20b2b2f.chunk.css.map": "/kenzap/static/css/2.d20b2b2f.chunk.css.map",
     "static/css/main.e567957f.chunk.css.map": "/kenzap/static/css/main.e567957f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d20b2b2f.chunk.css",
     "static/js/2.0315006d.chunk.js",
     "static/css/main.e567957f.chunk.css",
-    "static/js/main.0083ec56.chunk.js"
+    "static/js/main.5bcfd537.chunk.js"
   ]
 }
