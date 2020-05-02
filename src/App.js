@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
         <Header />
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Route exact path='/' component={Home} />
           <Route exact path='/service' component={Service} />
         </BrowserRouter>
